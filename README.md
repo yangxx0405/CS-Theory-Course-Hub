@@ -9,6 +9,7 @@ Theoretical computer science (CS theory) courses included in this list provide l
   - [Contents](#contents)
 - [Broad Intros](#broad-intros)
 - [Counting \& Sampling](#counting--sampling)
+- [Algorithms for Massive Data](#algorithms-for-massive-data)
 <!-- - [Theory of Computation](#theory_of_computation)
   - [Introductory](#theory_of_computation_introductory)
     - [Lecture Notes](#theory_of_computation_introductory_lecture_notes) | [Lecture Videos Playlists](#theory_of_computation_introductory_lecture_videos_playlists) | [MOOC](#theory_of_computation_introductory_mooc) | [Books](#theory_of_computation_introductory_books) | [Puzzles and Problem Sets](#theory_of_computation_introductory_puzzles_and_problem_sets)
@@ -75,19 +76,19 @@ Theoretical computer science (CS theory) courses included in this list provide l
 
 ---
 
-# Broad Intros<a name=broad_intros></a>
+# Broad Intros<a name=broad-intros></a>
 - [CS1212: Introduction to Theoretical Computer Science (Fall 2023)](https://notes.sjtu.edu.cn/s/7aZT8HBsl) at SJTU
   -  Instructors: Biaoshuai Tao, Kuan Yang, Yu Yu, Chihao Zhang, Yuhao Zhang
   - Past version: [Fall 2022](http://chihaozhang.com/teaching/IntroTCS2022/index.html)
 
-# Counting & Sampling<a name=counting_sampling></a>
+# Counting & Sampling<a name=counting-sampling></a>
 - [6.S891: Algorithmic Counting and Sampling: Probability, Polynomials, and More (Fall 2023)](https://notes.sjtu.edu.cn/s/7aZT8HBsl) at MIT
   -  Instructor: Kuikui Liu
-  - This course introduces the modern theory of algorithms for sampling from high-dimensional probability distributions and estimating their partition functions. These fundamental algorithmic primitives lie at the foundation of statistics, physics, and machine learning. We will study a diverse set of algorithmic paradigms for solving these problems based on Markov chains, decay of correlations, geometry of polynomials, and more. We will further study the rich set of analytic, probabilistic, and algebraic tools used to give performance guarantees to these algorithms.
+  - Description: This course introduces the modern theory of algorithms for sampling from high-dimensional probability distributions and estimating their partition functions. These fundamental algorithmic primitives lie at the foundation of statistics, physics, and machine learning. We will study a diverse set of algorithmic paradigms for solving these problems based on Markov chains, decay of correlations, geometry of polynomials, and more. We will further study the rich set of analytic, probabilistic, and algebraic tools used to give performance guarantees to these algorithms.
 
 - [CS 263: Counting and Sampling (Fall 2023)](https://nimaanari.com/cs263-autumn2023/) at Stanford
   -  Instructor: Nima Anari
-  - We will cover classic topics as well as some recent developments in counting and sampling.
+  - Description: We will cover classic topics as well as some recent developments in counting and sampling.
     - Classic topics include:
       - Counting complexity and #P
       - Reductions between counting and sampling
@@ -101,3 +102,16 @@ Theoretical computer science (CS theory) courses included in this list provide l
       - Stochastic localization and localization schemes
       - Exact sampling of infinite spin systems
   - Past version: [Fall 2022](https://nimaanari.com/cs263-autumn2022/), [Fall 2020](https://nimaanari.com/cs263-autumn2020/)
+
+# Algorithms for Massive Data<a name=alg-massive-data></a>
+- [CPSC 768: Scalable&Pvt Grph Algorithms (Spring 2024)](https://notes.sjtu.edu.cn/s/7aZT8HBsl) at Yale
+  <ul>
+  <li>  Instructor: Quanquan Liu
+  <li> Description: What techniques can we use to deal with modern real-world data with billions of data points? How do we account for strong adversaries that violate the privacy of users providing this data? This course will provide you with the knowledge to tackle research questions in these domains. We will propose answers and techniques to these broad questions from an algorithmic standpoint, presenting foundational topics such as:
+    <ul>
+    <li>The <b>parallel, distributed, and streaming models</b> and algorithmic techniques commonly used within these models</li>
+    <li><b>Differential privacy</b> and mechanisms for private data analysis</li>
+    <li><b>Implementation techniques, tools, and examples</b> that demonstrate the practicality of these algorithms in real-world systems</li>
+  </ul>
+    This course focuses on advanced topics in practical graph algorithms with provable guarantees beyond the sequential model used in most introductory algorithms classes. Specific topics include local graph techniques for problems such as maximal matching, independent set, k-core decomposition, densest subgraphs, and coloring as well as global techniques for problems like connectivity, shortest paths, and spanners. Introductory lectures will also feature techniques used beyond graph algorithms.
+  <ul>
