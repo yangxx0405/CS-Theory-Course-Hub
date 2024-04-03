@@ -104,7 +104,7 @@ Theoretical computer science (CS theory) courses included in this list provide l
   - Past version: [Fall 2022](https://nimaanari.com/cs263-autumn2022/), [Fall 2020](https://nimaanari.com/cs263-autumn2020/)
 
 # Algorithms for Massive Data<a name=alg-massive-data></a>
-- [CPSC 768: Scalable&Pvt Grph Algorithms (Spring 2024)](https://notes.sjtu.edu.cn/s/7aZT8HBsl) at Yale
+- [CPSC 768: Scalable&Pvt Grph Algorithms (Spring 2024)](https://quanquancliu.com/cpsc768.html) at Yale
   <ul>
   <li>  Instructor: Quanquan Liu
   <li> Description: What techniques can we use to deal with modern real-world data with billions of data points? How do we account for strong adversaries that violate the privacy of users providing this data? This course will provide you with the knowledge to tackle research questions in these domains. We will propose answers and techniques to these broad questions from an algorithmic standpoint, presenting foundational topics such as:
