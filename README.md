@@ -10,6 +10,7 @@ Theoretical computer science (CS theory) courses included in this list provide l
 - [Broad Intros](#broad-intros)
 - [Counting \& Sampling](#counting--sampling)
 - [Algorithms for Massive Data](#algorithms-for-massive-data)
+- [Machine Learning Theory](#machine-learning-theory)
 <!-- - [Theory of Computation](#theory_of_computation)
   - [Introductory](#theory_of_computation_introductory)
     - [Lecture Notes](#theory_of_computation_introductory_lecture_notes) | [Lecture Videos Playlists](#theory_of_computation_introductory_lecture_videos_playlists) | [MOOC](#theory_of_computation_introductory_mooc) | [Books](#theory_of_computation_introductory_books) | [Puzzles and Problem Sets](#theory_of_computation_introductory_puzzles_and_problem_sets)
@@ -102,16 +103,27 @@ Theoretical computer science (CS theory) courses included in this list provide l
       - Stochastic localization and localization schemes
       - Exact sampling of infinite spin systems
   - Past version: [Fall 2022](https://nimaanari.com/cs263-autumn2022/), [Fall 2020](https://nimaanari.com/cs263-autumn2020/)
+- [CS 395T: Continuous Algorithms (Spring 2024)](https://kjtian.github.io/cs395t.html) at UT Austin
+  -  Instructor: Kevin Tian
+  - Description: Algorithm design has traditionally been studied from a discrete perspective. Increasingly, however, modern algorithm design has benefitted from adopting a continuous perspective and using tools developed in the study of continuous mathematics. This course provides an introduction to the continuous algorithmic toolkit. In the first part, we survey topics in optimization theory (e.g. minimax and stochastic optimization, semidefinite programming, interior-point methods, and provable methods for structured nonconvex problems). In the second part, we build methods for sampling from continuous spaces, from general-purpose logconcave samplers to recent analysis techniques from stochastic differential equations and optimal transport. In the third part, we cover algorithms for high-dimensional statistics (e.g. PCA, learning mixture models, and robust parameter estimation), concluding by overviewing the interplay of differential privacy with algorithm design.
+  - Note: Also list in Machine Learning Theory.
 
 # Algorithms for Massive Data<a name=alg-massive-data></a>
 - [CPSC 768: Scalable&Pvt Grph Algorithms (Spring 2024)](https://quanquancliu.com/cpsc768.html) at Yale
-  <ul>
-  <li>  Instructor: Quanquan Liu
-  <li> Description: What techniques can we use to deal with modern real-world data with billions of data points? How do we account for strong adversaries that violate the privacy of users providing this data? This course will provide you with the knowledge to tackle research questions in these domains. We will propose answers and techniques to these broad questions from an algorithmic standpoint, presenting foundational topics such as:
+<ul>
+    <li>  Instructor: Quanquan Liu
+    <li> Description: What techniques can we use to deal with modern real-world data with billions of data points? How do we account for strong adversaries that violate the privacy of users providing this data? This course will provide you with the knowledge to tackle research questions in these domains. We will propose answers and techniques to these broad questions from an algorithmic standpoint, presenting foundational topics such as:
     <ul>
-    <li>The <b>parallel, distributed, and streaming models</b> and algorithmic techniques commonly used within these models</li>
-    <li><b>Differential privacy</b> and mechanisms for private data analysis</li>
-    <li><b>Implementation techniques, tools, and examples</b> that demonstrate the practicality of these algorithms in real-world systems</li>
-  </ul>
+      <li>The <b>parallel, distributed, and streaming models</b> and algorithmic techniques commonly used within these models</li>
+      <li><b>Differential privacy</b> and mechanisms for private data analysis</li>
+      <li><b>Implementation techniques, tools, and examples</b> that demonstrate the practicality of these algorithms in real-world systems</li>
+    </ul>
     This course focuses on advanced topics in practical graph algorithms with provable guarantees beyond the sequential model used in most introductory algorithms classes. Specific topics include local graph techniques for problems such as maximal matching, independent set, k-core decomposition, densest subgraphs, and coloring as well as global techniques for problems like connectivity, shortest paths, and spanners. Introductory lectures will also feature techniques used beyond graph algorithms.
-  <ul>
+</ul>
+
+# Machine Learning Theory<a name=ml-theory></a>
+
+- [CS 395T: Continuous Algorithms (Spring 2024)](https://kjtian.github.io/cs395t.html) at UT Austin
+  -  Instructor: Kevin Tian
+  - Description: Algorithm design has traditionally been studied from a discrete perspective. Increasingly, however, modern algorithm design has benefitted from adopting a continuous perspective and using tools developed in the study of continuous mathematics. This course provides an introduction to the continuous algorithmic toolkit. In the first part, we survey topics in optimization theory (e.g. minimax and stochastic optimization, semidefinite programming, interior-point methods, and provable methods for structured nonconvex problems). In the second part, we build methods for sampling from continuous spaces, from general-purpose logconcave samplers to recent analysis techniques from stochastic differential equations and optimal transport. In the third part, we cover algorithms for high-dimensional statistics (e.g. PCA, learning mixture models, and robust parameter estimation), concluding by overviewing the interplay of differential privacy with algorithm design.
+  - Note: Also list in Counting & Sampling.
